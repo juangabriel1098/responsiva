@@ -1,0 +1,403 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+*{
+   padding: 0px;
+   margin: 0px;
+   font-family: 'Archivo', sans-serif;
+}
+main{margin: 0 auto;}
+
+h1{
+    color: white;
+    
+}
+h2{
+    font-size: 60px;
+}
+span{
+    color: rgba(18,147,212,255);
+}
+
+
+header{
+    background-color: rgba(36,40,43,255);
+    height: 80px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    border:3px solid rgb(18,147,212,255);
+    border-radius: 30px;
+     
+}
+.cabecera{
+    height: 500px;
+    background: url(../images/cabecera.jpg);
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    }
+.formu{
+    background-color: rgba(36,40,43,255);
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    color: white;
+}
+
+.imput button {
+    padding: 5px;
+    background-color: rgba(232,73,29,255);
+    color: white;
+    border: none;
+}
+
+.imput input{
+    padding: 5px;
+}
+
+.tarjetas{
+    display: flex;
+    padding: 10px 50px 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(18,147,212,255);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.padre{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 330px;
+
+    
+    
+}
+
+.p1{
+    width: 70%;
+    padding-top: 20px;
+}
+
+.p2{
+    background-color: rgba(53,66,74,255);
+    color: white;
+    margin: 20px 0 ;
+    width: 68%;
+    padding: 10px 10px;
+}
+
+.img1{
+    width: 70%;
+}
+
+.parrafo3{
+    background-color:rgba(53,66,74,255) ;
+    width: 100%;
+    height: 25%;
+    color: white;
+    margin: 60px 0px 0 0;
+    padding: 20px 20px 20px 10px;
+}
+
+.padre1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parrafo33{
+    background-color:rgba(53,66,74,255) ;
+    width: 290px;
+    height: 150px;
+    color: white;
+    margin: 60px 450px 20px 0;
+    padding: 20px 20px 20px 10px;
+}
+
+.parrafos h2{
+font-size: 20px;
+margin-top: 50px;
+}
+
+.p3{
+    width: 700px;
+    height: 150px;
+    margin: 0 0 10px 100px ;
+    padding: 75px 30px 10px 30px ;
+    background-color: rgb(230,230,230,255);
+}
+
+.p4{
+    width: 700px;
+    height: 150px;
+    margin: 0 0 10px 100px ;
+    padding: 75px 30px 10px 30px ;
+    background-color: rgb(230,230,230,255);
+}
+
+.p5{
+    width: 700px;
+    height: 150px;
+    margin: 0 0 10px 100px ;
+    padding: 75px 30px 10px 30px ;
+    background-color: rgb(230,230,230,255);
+
+}
+
+.h2{
+    margin: 0 100px 20px ;
+}
+
+
+ 
+input[type='text1']{
+   padding: 10px 400px 10px 0;
+
+}
+
+input[type='text2']{
+    padding: 10px 400px 10px 0;
+ 
+ }
+input[type='text3']{
+    padding: 10px 400px 10px 0;
+ 
+}
+
+input[type='text4']{
+    padding: 10px 400px 10px 0;
+ 
+}
+
+h4{
+    padding-bottom: 20px;
+}
+.padre2{
+    display: flex;
+    justify-content: space-around;
+}
+
+div img{
+    width: 320px;
+    
+}
+
+.boton{
+    width: 559px;
+    background-color: rgba(232,73,29,255);
+    color: white;
+    border: none;
+
+    
+}
+
+@media(max-width: 1200px){
+    main{width: 992px;}
+    .tarjetas{padding: 10px 0px;}
+    .padre{padding: 0px;}
+
+    .p3{
+       margin-left: 0px;
+    }
+    .p4{
+        margin-left: 0px;
+     }
+    .p5{
+        margin-left: 0px;
+     }
+
+    .padre1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .parrafos h2{
+        margin: 10px 0px;
+    }
+    .parrafo33{
+        width: 400px;
+        height: 115px;
+        margin: 10px 0px 20px 24px;
+    }
+    h2 {
+        font-size: 20px;
+        margin-left: 13px;}
+
+    label{
+        margin-left: 13px;
+    }
+    input[type='text1'] {
+        padding: 10px 200px 10px 0;
+        margin: 0 0 0 13px;
+    }
+    input[type='text2'] {
+        padding: 10px 200px 10px 0;
+        margin: 0 0 0 13px;
+    }
+    input[type='text3'] {
+        padding: 10px 200px 10px 0;
+        margin: 0 0 0 13px;
+    }
+    input[type='text4'] {
+        padding: 10px 200px 10px 0;
+        margin: 0 0 0 13px;
+    }
+    textarea{
+        margin-left: 13px;
+        width: 360px;
+    }
+    .parrafo33 {
+        width: 254px;
+        height: 140px;
+        margin: 10px 0px 20px 18px;}
+    div img {
+            width: 284px;
+            margin-left: 22px;
+        }
+    .boton{
+        width: 364px;
+        margin-left: 13px;
+            background-color: rgba(232,73,29,255);
+            color: white;
+            border: none;
+        
+            
+        }
+
+
+@media(max-width: 992px){
+    main{width: 768px;
+    }
+
+    header{
+        display: block;
+        text-align: center;
+    }
+
+    h1{
+        margin-bottom: 10px;}
+
+    .tarjeta1 img{
+        width: 200px;
+    }
+    .tarjeta2 img{
+        width: 200px;
+    }
+    .tarjeta3 img{
+        width: 200px;
+        
+    }
+
+    .parrafo3{
+        width: auto;
+    }
+    .img1{
+        width: 96%;
+    }
+    .p1{
+        width: 91%;
+    }
+    .p2{width: 91%;}
+            
+      
+    
+        }
+@media(max-width: 768px){
+        main{width: 600px;}
+        h2 {
+            font-size: 20px;
+            margin-left: 50px;}
+
+        .formu{padding: 0px;}
+        .parrafos h2 {
+            margin: 10px 42px;
+        }
+        .p3{
+            width: 500px;
+            height: 123px;
+            margin: 0 0 10px 40px;
+            padding: 47px 30px 10px 20px;
+        }
+        .p4{
+            width: 500px;
+            height: 123px;
+            margin: 0 0 10px 40px;
+            padding: 47px 30px 10px 20px;
+        }
+        .p5{
+            width: 500px;
+            height: 123px;
+            margin: 0 0 10px 40px;
+            padding: 47px 30px 10px 20px;
+        }
+        .tarjeta1 img{
+            width: 160px;
+        }
+        .tarjeta2 img{
+            width: 160px;
+        }
+        .tarjeta3 img{
+            width: 160px;
+            
+        }
+        label{
+            margin-left: 50px;
+        }
+        input[type='text1'] {
+            padding: 10px 167px 10px 0;
+            margin: 0 0 0 50px;
+        }
+        input[type='text2'] {
+            padding: 10px 167px 10px 0;
+            margin: 0 0 0 50px;
+        }
+        input[type='text3'] {
+            padding: 10px 167px 10px 0;
+            margin: 0 0 0 50px;
+        }
+        input[type='text4'] {
+            padding: 10px 167px 10px 0;
+            margin: 0 0 0 50px;
+        }
+        textarea{
+            margin-left: 50px;
+            width: 324px;
+        }
+        .parrafo33 {
+            width: 152px;
+            height: 223px;
+            margin: 10px 0px 20px 18px;}
+        div img {
+                width: 167px;
+                margin-left: 22px;
+            }
+        
+                    
+        }
+}
+
+   
+
+
+
